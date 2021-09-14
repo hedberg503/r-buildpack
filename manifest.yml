@@ -111,6 +111,9 @@ dependencies:
     version: 1.6.0
     source: https://cran.r-project.org/src/contrib/shiny_1.6.0.tar.gz
     source_sha256: 8bd7d76d67d610aabdcc1df7c8f6d0f18dd695ace16af29b60982541d784bb99
+   - name: Cairo
+    version: 1.5-12.2
+    source: https://cran.r-project.org/src/contrib/Cairo_1.5-12.2.tar.gz
 pre_package: scripts/build.sh
 include_files:
 - CHANGELOG
